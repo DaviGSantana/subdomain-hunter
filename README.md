@@ -13,7 +13,7 @@ git clone https://github.com/DaviGSantana/subdomain-hunter.git
 
 Navegando até o Diretório do Projeto
 
-cd subdomain-bruteforce
+cd subdomain-hunter
 
 Executando o Script Python3
 Execute o script Python3, fornecendo o domínio alvo e, opcionalmente, o caminho para uma wordlist personalizada:
