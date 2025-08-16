@@ -1,25 +1,32 @@
-# Subdomain Bruteforce
+# Subdomain-hunter
 
-Este é um projeto simples para realizar a descoberta de subdomínios utilizando uma abordagem de força bruta.
+O **Subdomain-hunter** é uma ferramenta simples em Python para realizar a **descoberta de subdomínios** utilizando uma abordagem de **força bruta** com wordlists personalizadas.  
+Ele permite que você encontre subdomínios ativos de um domínio alvo, facilitando tarefas de reconhecimento em segurança ofensiva e análise de infraestrutura.
 
-## Uso
+---
 
-Certifique-se de ter Python3 instalado em sua máquina.
+## 🚀 Funcionalidades
 
-### Clonando o Repositório
+- 🔍 Descoberta de subdomínios por força bruta.  
+- 📂 Uso de wordlists personalizadas.  
+- 🌐 Retorno dos subdomínios ativos encontrados.  
+- ⚡ Simples e rápido de executar.  
+
+---
+
+## 📂 Estrutura do Projeto
+
+- `subdomain.py` → Script principal para execução do brute force.  
+
+---
+
+## 🛠️ Requisitos
+
+- Python **3.x**  
+- Biblioteca necessária:  
+  - `requests`  
+
+Instale as dependências executando:
 
 ```bash
-git clone https://github.com/DaviGSantana/subdomain-hunter.git
-
-Navegando até o Diretório do Projeto
-
-cd subdomain-hunter
-
-Executando o Script Python3
-Execute o script Python3, fornecendo o domínio alvo e, opcionalmente, o caminho para uma wordlist personalizada:
-
-python subdomain.py dominio.com -w /caminho/wordlist
-
-
-### Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções ou novos recursos.
+pip install requests
