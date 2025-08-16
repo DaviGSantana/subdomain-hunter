@@ -22,7 +22,7 @@ Ele permite que você encontre subdomínios ativos de um domínio alvo, facilita
 
 ## 🛠️ Requisitos
 
-- Python **3.x**  
+- Python **3**  
 - Biblioteca necessária:  
   - `requests`  
 
